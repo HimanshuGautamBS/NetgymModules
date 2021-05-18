@@ -1,20 +1,32 @@
-import React, { useState } from "react";
-import Calendar from "react-calendar";
-import "react-calendar/dist/Calendar.css";
-import moment from "moment";
-
-export default function RequestTime() {
-  const [dateState, setDateState] = useState(new Date());
-  const changeDate = (e) => {
-    setDateState(e);
-  };
+import React from "react";
+import "./App.css";
+import { DatePickerComponent } from "@syncfusion/ej2-react-calendars";
+function RequestTime() {
+  const dateValue = new Date(
+    new Date().getFullYear(),
+    new Date().getMonth(),
+    14
+  );
+  const startDate = new Date(
+    new Date().getFullYear(),
+    new Date().getMonth(),
+    10
+  );
+  const enddate = new Date(new Date().getFullYear(), new Date().getMonth(), 20);
   return (
-    <>
-      <p>
-        Current selected date is{" "}
-        <b>{moment(dateState).format("MMMM Do YYYY")}</b>
-      </p>
-      <Calendar value={dateState} onChange={changeDate} />
-    </>
+    <div>
+      <DatePickerComponent
+        placeholder="Enter Date"
+        value={dateValue}
+        min={startDate}
+        max={enddate}
+        format="dd-MMM-yy"
+
+        // start="Year"
+        // depth="Year"
+      ></DatePickerComponent>
+    </div>
   );
 }
+
+export default RequestTime;

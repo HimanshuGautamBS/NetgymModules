@@ -1645,6 +1645,94 @@
     "@svgr/plugin-svgo" "^5.5.0"
     "loader-utils" "^2.0.0"
 
+"@syncfusion/ej2-base@~19.1.63":
+  "integrity" "sha512-L/jhv+0HifLUyWcHV9CD6MJPyg5xJT0LSiQakX8JsZh+DNPfcpMy41f6pK6dVXyhXDegC+xdws4MLQ7WHnhCuA=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-icons" "~19.1.63"
+
+"@syncfusion/ej2-buttons@~19.1.63":
+  "integrity" "sha512-kChTWZiZHcroAfaF22N7b1JDSK3U+mPlJHEozjx/qFx8DL5F7p9NunrtsehWYzssWD5FSabdnbcJ6fU4JYACNQ=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-buttons/-/ej2-buttons-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+
+"@syncfusion/ej2-calendars@19.1.63":
+  "integrity" "sha512-tPW8dLokKOZN2Rpild4YC9lXYIXUb8RU7kjYYeJu+QwcNjisdPsKprEIZKqNYfk7L9AD4gLztAK8CUTcN1FQ0A=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-calendars/-/ej2-calendars-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+    "@syncfusion/ej2-buttons" "~19.1.63"
+    "@syncfusion/ej2-inputs" "~19.1.63"
+    "@syncfusion/ej2-lists" "~19.1.63"
+    "@syncfusion/ej2-popups" "~19.1.63"
+
+"@syncfusion/ej2-data@~19.1.63":
+  "integrity" "sha512-b/CDLzLHpdL57/RX7FW8rB6DYtozxbAPBa1OWpzFs/cnf084D2XpSnigaplmbsFwFTQ1O+aaDYWEBn892kn/gw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-data/-/ej2-data-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+
+"@syncfusion/ej2-icons@~19.1.63":
+  "integrity" "sha512-v8u+Us55IxqMRZzCdj8ueRgkbVylilaNeuySgdlOHumjucsH9xo24XLJ7iQaSYsOcz9df8yDsd2DsfXAepBQhw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-icons/-/ej2-icons-19.1.63.tgz"
+  "version" "19.1.63"
+
+"@syncfusion/ej2-inputs@~19.1.63":
+  "integrity" "sha512-OEV7uNA06pFE768HhD8/BoISC//9/X/5bx18//dmQ/hd93SRH0Negl4Fvda0jLXy5H0dMFs/SV04aWjWreZ+jw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-inputs/-/ej2-inputs-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+    "@syncfusion/ej2-buttons" "~19.1.63"
+    "@syncfusion/ej2-popups" "~19.1.63"
+    "@syncfusion/ej2-splitbuttons" "~19.1.63"
+
+"@syncfusion/ej2-lists@~19.1.63":
+  "integrity" "sha512-ALATWLsCObNZg95kswuO1L/LOYprVPftlddtHqz9/UF8W6/QzpUsU2VmJvRJI4Dt6i/+duNuBoX32PklIf/Raw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-lists/-/ej2-lists-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+    "@syncfusion/ej2-buttons" "~19.1.63"
+    "@syncfusion/ej2-data" "~19.1.63"
+
+"@syncfusion/ej2-popups@~19.1.63":
+  "integrity" "sha512-B7ep3oGQ8avN0zlvKP0KCXGI1Jt0vd6y4vDLYwrdeaGwvgOX6S4Oyg8IN25AsZjHVZITsa41stqMI546x3deFw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-popups/-/ej2-popups-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+    "@syncfusion/ej2-buttons" "~19.1.63"
+
+"@syncfusion/ej2-react-base@~19.1.63":
+  "integrity" "sha512-95YRvKEYARjr7oIrscNlKL0y7iTEHwJ3eu2m1aMlH8ZmhfI/rEWOYBkUYVF221Q0BZx4joyFqwKpoubhPDT/uA=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+
+"@syncfusion/ej2-react-calendars@^19.1.63":
+  "integrity" "sha512-Y8SVUQw+igFJLyru48zjzNC3dKUekXxoak6TqV+dLNF8l4buEklDaiGSO1ozfxVamAjwDRj+U+HbM0x7h4RxQw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-react-calendars/-/ej2-react-calendars-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+    "@syncfusion/ej2-calendars" "19.1.63"
+    "@syncfusion/ej2-react-base" "~19.1.63"
+
+"@syncfusion/ej2-splitbuttons@~19.1.63":
+  "integrity" "sha512-y9MV/YPXQ3ZXpmoNZgqBw9JCY2ECoSD4bUjL714h/+NI381fZVE3jOjJb7G1NkbEKJ353JUUs7Sg/XVMx4LDYA=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-19.1.63.tgz"
+  "version" "19.1.63"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.63"
+    "@syncfusion/ej2-popups" "~19.1.63"
+
 "@testing-library/dom@^7.28.1", "@testing-library/dom@>=7.21.4":
   "integrity" "sha512-0X7ACg4YvTRDFMIuTOEj6B4NpN7i3F/4j5igOcTI5NC5J+N4TribNdErCHOZF1LBWhhcyfwxelVwvoYNMUXTOA=="
   "resolved" "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.31.0.tgz"
@@ -4235,6 +4323,14 @@
   dependencies:
     "esutils" "^2.0.2"
 
+"doctrine@0.7.2":
+  "integrity" "sha1-fLhgNZujvpDgQLJrcpzkv6ZUxSM="
+  "resolved" "https://registry.npmjs.org/doctrine/-/doctrine-0.7.2.tgz"
+  "version" "0.7.2"
+  dependencies:
+    "esutils" "^1.1.6"
+    "isarray" "0.0.1"
+
 "doctrine@1.5.0":
   "integrity" "sha1-N53Ocw9hZvds76TmcHoVmwLFpvo="
   "resolved" "https://registry.yarnpkg.com/doctrine/-/doctrine-1.5.0.tgz"
@@ -4813,6 +4909,11 @@
   "resolved" "https://registry.yarnpkg.com/estree-walker/-/estree-walker-1.0.1.tgz"
   "version" "1.0.1"
 
+"esutils@^1.1.6":
+  "integrity" "sha1-wBzKqa5LiXxtDD4hCuUvPHqEQ3U="
+  "resolved" "https://registry.npmjs.org/esutils/-/esutils-1.1.6.tgz"
+  "version" "1.1.6"
+
 "esutils@^2.0.2":
   "integrity" "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g=="
   "resolved" "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz"
@@ -5318,6 +5419,11 @@
   "integrity" "sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg=="
   "resolved" "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz"
   "version" "2.0.5"
+
+"get-comments@1.0.1":
+  "integrity" "sha1-GWdZEBu7xPrPEwYMqu3Uhw3uVb4="
+  "resolved" "https://registry.npmjs.org/get-comments/-/get-comments-1.0.1.tgz"
+  "version" "1.0.1"
 
 "get-intrinsic@^1.0.2", "get-intrinsic@^1.1.0", "get-intrinsic@^1.1.1":
   "integrity" "sha512-kWZrnVM42QCiEA2Ig1bG8zjoIMOgxWwYCEeNdwY6Tv/cOSeGpcoX4pXHfKUxNKVoArnrEr2e9srnAxxGIraS9Q=="
@@ -6261,6 +6367,11 @@
   "resolved" "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz"
   "version" "1.0.0"
 
+"isarray@0.0.1":
+  "integrity" "sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8="
+  "resolved" "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+  "version" "0.0.1"
+
 "isexe@^2.0.0":
   "integrity" "sha1-6PvzdNxVb/iUehDcsFctYz8s+hA="
   "resolved" "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz"
@@ -6567,19 +6678,7 @@
     "jest-regex-util" "^26.0.0"
     "jest-snapshot" "^26.6.2"
 
-"jest-resolve@*":
-  "version" "26.6.0"
-  dependencies:
-    "@jest/types" "^26.6.0"
-    "chalk" "^4.0.0"
-    "graceful-fs" "^4.2.4"
-    "jest-pnp-resolver" "^1.2.2"
-    "jest-util" "^26.6.0"
-    "read-pkg-up" "^7.0.1"
-    "resolve" "^1.17.0"
-    "slash" "^3.0.0"
-
-"jest-resolve@^26.6.2":
+"jest-resolve@*", "jest-resolve@^26.6.2":
   "integrity" "sha512-sOxsZOq25mT1wRsfHcbtkInS+Ek7Q8jCHUB0ZUTP0tc/c41QHriU/NunqMfCUWsL4H3MHpvQD4QR9kSYhS7UvQ=="
   "resolved" "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-26.6.2.tgz"
   "version" "26.6.2"
@@ -7136,7 +7235,7 @@
   "resolved" "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz"
   "version" "4.5.0"
 
-"lodash@^4.17.11", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.5", "lodash@>=3.5 <5":
+"lodash@^4.13.1", "lodash@^4.17.11", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.5", "lodash@^4.6.1", "lodash@>=3.5 <5":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -7485,7 +7584,7 @@
   "resolved" "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
 
-"moment@^2.29.1":
+"moment@^2.13.0", "moment@^2.29.1":
   "integrity" "sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ=="
   "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.1.tgz"
   "version" "2.29.1"
@@ -9184,6 +9283,19 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
+"rc-datepicker@^5.0.16":
+  "integrity" "sha512-LFbXVO/wqyr1xIUe/KuJeDcSlmZRJK7fhBVa5rCsPkAbumRc1uShaSrs1badVvR5JQjNP8/p7cqrFrwwDZOqtA=="
+  "resolved" "https://registry.npmjs.org/rc-datepicker/-/rc-datepicker-5.0.16.tgz"
+  "version" "5.0.16"
+  dependencies:
+    "classnames" "^2.2.5"
+    "lodash" "^4.13.1"
+    "moment" "^2.13.0"
+    "react-flexview" "^4.0.4"
+    "revenge" "^0.4.4"
+    "tcomb" "^3.2.1"
+    "tcomb-react" "^0.9.0"
+
 "react-app-polyfill@^2.0.0":
   "integrity" "sha512-0sF4ny9v/B7s6aoehwze9vJNWcmCemAUYBVasscVr92+UYiEqDXOxfKjXN685mDaMRNF3WdhHQs76oTODMocFA=="
   "resolved" "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-2.0.0.tgz"
@@ -9236,7 +9348,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^16.3.0 || ^17.0.0-0", "react-dom@^16.6.0", "react-dom@^16.8.6", "react-dom@^17.0.2":
+"react-dom@*", "react-dom@^0.14 || ^15.0 || ^16.0", "react-dom@^16.3.0 || ^17.0.0-0", "react-dom@^16.6.0", "react-dom@^16.8.6", "react-dom@^17.0.2", "react-dom@16.13.1 - 17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -9249,6 +9361,13 @@
   "integrity" "sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew=="
   "resolved" "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
+
+"react-flexview@^4.0.4":
+  "integrity" "sha512-vclPtC4EjNnagEuC3KSXyr8YPtNE0gwxqO8CtJ4IsWe+eVtzetm6d0eNQ2cL+Ws7b/FazlieyoPGBGlBPvuTpw=="
+  "resolved" "https://registry.npmjs.org/react-flexview/-/react-flexview-4.0.4.tgz"
+  "version" "4.0.4"
+  dependencies:
+    "prop-types" "^15.5.6"
 
 "react-inputs-validation@^4.7.0":
   "integrity" "sha512-FSmoZ7hCD/elWkUwhBfaryaFaxCabzxa/fBSz4JD6tEn4/aCm1Q09kaVGzWzOmTD6RqtlFvKjTLlVEjudyO/Pw=="
@@ -9345,7 +9464,7 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
-"react@*", "react@^16.3.0 || ^17.0.0-0", "react@^16.6.0", "react@^16.8.6", "react@^17.0.2", "react@>= 16", "react@17.0.2":
+"react@*", "react@^0.13.3 || ^0.14", "react@^0.14 || ^15.0 || ^16.0", "react@^16.3.0 || ^17.0.0-0", "react@^16.6.0", "react@^16.8.6", "react@^17.0.2", "react@>= 16", "react@>=0.13.0", "react@16.13.1 - 17.0.2", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -9712,6 +9831,15 @@
   "integrity" "sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw=="
   "resolved" "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz"
   "version" "1.0.4"
+
+"revenge@^0.4.4":
+  "integrity" "sha1-ChS/qNQ/qaaqQKvIEV8StNmI1UI="
+  "resolved" "https://registry.npmjs.org/revenge/-/revenge-0.4.5.tgz"
+  "version" "0.4.5"
+  dependencies:
+    "debug" "^2.2.0"
+    "lodash" "^4.6.1"
+    "tcomb" "^3.0.0"
 
 "rework-visit@1.0.0":
   "integrity" "sha1-mUWygD8hni96ygCtuLyfZA+ELJo="
@@ -10714,6 +10842,36 @@
     "minizlib" "^2.1.1"
     "mkdirp" "^1.0.3"
     "yallist" "^4.0.0"
+
+"tcomb-doc@^0.5.0":
+  "integrity" "sha1-1YplOjAH42SRJ4ZAEMVYp79mbR4="
+  "resolved" "https://registry.npmjs.org/tcomb-doc/-/tcomb-doc-0.5.2.tgz"
+  "version" "0.5.2"
+  dependencies:
+    "tcomb" "^3.0.0"
+
+"tcomb-react@^0.9.0":
+  "integrity" "sha1-RHE+HS6ML/dEuO1leb93rtI7Dvw="
+  "resolved" "https://registry.npmjs.org/tcomb-react/-/tcomb-react-0.9.3.tgz"
+  "version" "0.9.3"
+  dependencies:
+    "doctrine" "0.7.2"
+    "get-comments" "1.0.1"
+    "react" ">=0.13.0"
+    "tcomb-doc" "^0.5.0"
+    "tcomb-validation" "^3.0.0"
+
+"tcomb-validation@^3.0.0":
+  "integrity" "sha512-urVVMQOma4RXwiVCa2nM2eqrAomHROHvWPuj6UkDGz/eb5kcy0x6P0dVt6kzpUZtYMNoAqJLWmz1BPtxrtjtrA=="
+  "resolved" "https://registry.npmjs.org/tcomb-validation/-/tcomb-validation-3.4.1.tgz"
+  "version" "3.4.1"
+  dependencies:
+    "tcomb" "^3.0.0"
+
+"tcomb@^3.0.0", "tcomb@^3.2.1":
+  "integrity" "sha512-di2Hd1DB2Zfw6StGv861JoAF5h/uQVu/QJp2g8KVbtfKnoHdBQl5M32YWq6mnSYBQ1vFFrns5B1haWJL7rKaOQ=="
+  "resolved" "https://registry.npmjs.org/tcomb/-/tcomb-3.2.29.tgz"
+  "version" "3.2.29"
 
 "temp-dir@^1.0.0":
   "integrity" "sha1-CnwOom06Oa+n4OvqnB/AvE2qAR0="
