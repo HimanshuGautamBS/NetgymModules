@@ -8,23 +8,18 @@ class Clock extends React.Component {
         index: Math.random(),
         name: "",
         author: "",
-        type: "",
-        dateOfPublish: "",
-        price: "",
+        isToggleOn: true,
       },
     ],
   };
   handleChange = (e) => {
-    if (
-      ["name", "author", "type", "dateOfPublish", "price"].includes(
-        e.target.name
-      )
-    ) {
+    if (["name", "author"].includes(e.target.name)) {
       let bookDetails = [...this.state.bookDetails];
       bookDetails[e.target.dataset.id][e.target.name] = e.target.value;
     } else {
       this.setState({ [e.target.name]: e.target.value });
     }
+    e.preventDefault();
   };
   addNewRow = (e) => {
     this.setState((prevState) => ({
@@ -35,8 +30,6 @@ class Clock extends React.Component {
           name: "",
           author: "",
           type: "",
-          dateOfPublish: "",
-          price: "",
         },
       ],
     }));

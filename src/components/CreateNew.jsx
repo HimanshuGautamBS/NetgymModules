@@ -1,76 +1,53 @@
 import React from "react";
+import Toggle from "./Toggle";
+import RequestTime from "../RequestTime";
+import TimeInp from "./TimeInp";
+
 const BookList = (props) => {
   return props.bookDetails.map((val, idx) => {
-    let name = `name-${idx}`,
-      author = `author-${idx}`,
-      dateOfPublish = `dateOfPublish-${idx}`,
-      type = `type-${idx}`,
-      price = `price-${idx}`;
+    let name = `hour-${idx}`,
+      author = `author-${idx}`;
+
     return (
       <div key={val.index}>
+        <RequestTime />
         <label>Start time</label>
         <div className="col">
-          <button>up</button>
+          <TimeInp />
+          {/*<button>up</button>
           <input
             type="text"
             className="form-control required"
             placeholder="6"
-            name="name"
+            name="hour"
             data-id={idx}
             id={name}
           />
-          <button>Down</button>
+          <button>Down</button>*/}
         </div>
         <div className="col">
-          <input
+          <TimeInp />
+          {/*<input
             type="text"
             className="form-control required"
             placeholder="0"
             name="author"
             id={author}
             data-id={idx}
-          />
+          />*/}
         </div>
         <div className="col">
-          <input
-            type="text"
-            className="form-control"
-            placeholder="0"
-            name="price"
-            id={price}
-            data-id={idx}
-          />
+          <Toggle />
         </div>
         <label>End time</label>
         <div className="col">
-          <input
-            type="text"
-            className="form-control required"
-            placeholder="Name"
-            name="name"
-            data-id={idx}
-            id={name}
-          />
+          <TimeInp />
         </div>
         <div className="col">
-          <input
-            type="text"
-            className="form-control required"
-            placeholder="Author"
-            name="author"
-            id={author}
-            data-id={idx}
-          />
+          <TimeInp />
         </div>
         <div className="col">
-          <input
-            type="text"
-            className="form-control"
-            placeholder="Price"
-            name="price"
-            id={price}
-            data-id={idx}
-          />
+          <Toggle />
         </div>
         <div className="col p-4">
           {idx === 0 ? (
